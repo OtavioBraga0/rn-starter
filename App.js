@@ -6,12 +6,14 @@ import ListScreen from './src/screens/ListScreen';
 // EXERCÍCIOS
 import Exercicio1Screen from './src/screens/Exercicio1Screen';
 import Exercicio2Screen from './src/screens/Exercicio2Screen';
+import ImageScreen from './src/screens/ImageScreen';
 
 const navigator = createStackNavigator(
   {
     Home: HomeScreen,
     Components: ComponentsScreen,
     List: ListScreen,
+    Image: ImageScreen,
 
 // EXERCÍCIOS
     Exercicio1: Exercicio1Screen,
