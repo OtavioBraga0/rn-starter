@@ -6,6 +6,10 @@ const HomeScreen = ({navigation}) => {
     <View>
       <Text style={styles.text}>Hi there!</Text>
       <Button
+        title="Go to Exercises List"
+        onPress={() => navigation.navigate("ExercicioList")}
+      />
+      <Button
         onPress={() => navigation.navigate("Components")} 
         title="Go to Components Demo"
       />
@@ -16,6 +20,18 @@ const HomeScreen = ({navigation}) => {
       <Button
         title="Go to Image Demo"
         onPress={() => navigation.navigate("Image")}
+      />
+      <Button
+        title="Go to Counter Demo"
+        onPress={() => navigation.navigate("Counter")}
+      />
+      <Button
+        title="Go to Color Demo"
+        onPress={() => navigation.navigate("Color")}
+      />
+      <Button
+        title="Go to Square Demo"
+        onPress={() => navigation.navigate("Square")}
       />
     </View>
   );
