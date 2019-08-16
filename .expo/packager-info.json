@@ -2,8 +2,9 @@
   "expoServerPort": 19000,
   "expoServerNgrokUrl": "https://jk-38i.anonymous.rn-starter.exp.direct",
   "packagerNgrokUrl": "https://packager.jk-38i.anonymous.rn-starter.exp.direct",
-  "ngrokPid": 10164,
+  "ngrokPid": 5028,
   "packagerPort": 19001,
-  "packagerPid": 5132,
-  "devToolsPort": 19002
+  "packagerPid": 968,
+  "devToolsPort": 19002,
+  "webpackServerPort": null
 }
