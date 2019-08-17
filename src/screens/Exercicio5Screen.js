@@ -4,9 +4,9 @@ import { View, StyleSheet } from "react-native";
 const Exercicio5Screen = () => {
     return(
         <View style={styles.viewPattern}>
-            <View style={styles.viewOne}></View>
-            <View style={styles.viewTwo}></View>
-            <View style={styles.viewThree}></View>
+            <View style={styles.viewOne} />
+            <View style={styles.viewTwo} />
+            <View style={styles.viewThree} />
         </View>
     );
 };
