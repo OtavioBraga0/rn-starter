@@ -7,6 +7,7 @@ import CounterScreen from './src/screens/CounterScreen';
 import ColorScreen from './src/screens/ColorScreen';
 import SquareScreen from './src/screens/SquareScreen';
 import TextScreen from './src/screens/TextScreen';
+import BoxScreen from './src/screens/BoxScreen';
 
 // EXERCÍCIOS
 import ExercicioListScreen from './src/screens/ExercicioListScreen';
@@ -14,6 +15,7 @@ import Exercicio1Screen from './src/screens/Exercicio1Screen';
 import Exercicio2Screen from './src/screens/Exercicio2Screen';
 import Exercicio3Screen from './src/screens/Exercicio3Screen';
 import Exercicio4Screen from './src/screens/Exercicio4Screen';
+import Exercicio5Screen from './src/screens/Exercicio5Screen';
 
 const navigator = createStackNavigator(
   {
@@ -25,6 +27,7 @@ const navigator = createStackNavigator(
     Color: ColorScreen,
     Square: SquareScreen,
     Text: TextScreen,
+    Box: BoxScreen,
 
 // EXERCÍCIOS
     ExercicioList: ExercicioListScreen,
@@ -32,6 +35,7 @@ const navigator = createStackNavigator(
     Exercicio2: Exercicio2Screen,
     Exercicio3: Exercicio3Screen,
     Exercicio4: Exercicio4Screen,
+    Exercicio5: Exercicio5Screen,
   },
   {
     initialRouteName: 'Home',
