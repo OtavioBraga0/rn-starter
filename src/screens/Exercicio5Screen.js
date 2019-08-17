@@ -19,18 +19,18 @@ const styles = StyleSheet.create({
     viewOne: {
         height: 50,
         width: 50,
-        backgroundColor: "rgb(255,0,0)"
+        backgroundColor: "red"
     },
     viewTwo: {
         height: 50,
         width: 50,
         marginTop: 50,
-        backgroundColor: "rgb(0,255,0)"
+        backgroundColor: "green"
     },
     viewThree: {
         height: 50,
         width: 50,
-        backgroundColor: "rgb(0,0,255)"
+        backgroundColor: "purple"
     }
 });
 
